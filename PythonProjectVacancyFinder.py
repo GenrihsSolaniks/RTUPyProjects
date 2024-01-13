@@ -30,6 +30,8 @@ url = "https://cv.lv/lv"
 driver.get(url)
 time.sleep(2)
 delay_time = 10
+driver.refresh()
+time.sleep(5)
 
 # COOKIES ACCEPT
 accept = driver.find_element(By.CLASS_NAME, "cookie-consent-button")
@@ -165,10 +167,13 @@ if data.status_code == 200:
     option = webdriver.ChromeOptions()
     driver = webdriver.Chrome(service=service, options=option)
 
+    # REFRESHING WEB PAGE FOR CLOSING ADD
     url = "https://cv.lv/lv"
     driver.get(url)
     time.sleep(2)
     delay_time = 10
+    driver.refresh()
+    time.sleep(5)
 
     # COOKIES ACCEPT
     accept = driver.find_element(By.CLASS_NAME, "cookie-consent-button")
