@@ -18,4 +18,4 @@ Time - izmantot metodi "sleep", kas savukārt dod mums iespēju norādīt aizkav
 
 Secinājums:
 Pateicoties uzrakstītajam kodam, mēs varam ievadīt visus nepieciešamos kritērijus un uzreiz saņemt visas piemērotās darbvietas ar visiem iesniegšanas datumiem un aktualitāti. Svarīga priekšrocība ir tā, ka, aizpildot tos pašus filtrus tīmekļa vietnē, tiks parādītas ne tikai mums vajadzīgās darba vietas, kas palēnina mums vajadzīgā darba meklēšanas procesu.
-Koda darbības demonstrēšana:
+Koda darbības demonstrēšana: https://youtu.be/7VbvaTCIRsU?si=CAkIv48KrGatbep2
